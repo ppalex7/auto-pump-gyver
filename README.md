@@ -46,6 +46,7 @@ _Для Digispark с MicroUSB (как на картинке ниже), один 
 * Помпа https://aliexpress.ru/item/32813225037.html
 * Транзисторы, конденсаторы и резисторы – в ЛЮБОМ магазине радиодеталей
 * Шланг https://aliexpress.ru/item/32631432356.html
+* Шланг (получше) https://aliexpress.ru/item/1005001460435823.html?sku_id=12000018082918768
 * Тройнички https://aliexpress.ru/item/32630461456.html
 * Разветвитель https://aliexpress.ru/item/32733202587.html
 
