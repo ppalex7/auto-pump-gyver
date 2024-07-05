@@ -38,16 +38,16 @@ _Для Digispark с MicroUSB (как на картинке ниже), один 
 ## Материалы и компоненты
 ### Ссылки оставлены на магазины, с которых я закупаюсь уже не один год
 ### Почти все компоненты можно взять в магазине WAVGAT по первым ссылкам
-* Digispark https://ali.ski/3ZJtu
-* Мосфет модуль https://ali.ski/Tb75N6
-* Батарейный отсек 4xAA https://ali.ski/xfc4R4
-* Отсек 3-4 АА (другой магаз) https://ali.ski/PoAge3
-* Отсек как на видео (другой магаз) https://ali.ski/x8dByd
-* Помпа https://ali.ski/yVOHbe
+* Digispark https://aliexpress.ru/item/32807895683.html
+* Мосфет модуль https://aliexpress.ru/item/4000550112144.html
+* Батарейный отсек 4xAA https://aliexpress.ru/item/32553923147.html
+* Отсек 3-4 АА (другой магаз) https://aliexpress.ru/item/32818907820.html
+* Отсек как на видео (другой магаз) https://aliexpress.ru/item/32821360423.html
+* Помпа https://aliexpress.ru/item/32813225037.html
 * Транзисторы, конденсаторы и резисторы – в ЛЮБОМ магазине радиодеталей
-* Шланг https://ali.ski/Laapo4
-* Тройнички https://ali.ski/xaXXo
-* Разветвитель https://ali.ski/Wmn3R
+* Шланг https://aliexpress.ru/item/32631432356.html
+* Тройнички https://aliexpress.ru/item/32630461456.html
+* Разветвитель https://aliexpress.ru/item/32733202587.html
 
 ## Вам скорее всего пригодится
 * [Всё для пайки (паяльники и примочки)](http://alexgyver.ru/all-for-soldering/)
