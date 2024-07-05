@@ -31,6 +31,8 @@
 ![SCHEME](https://github.com/AlexGyver/Auto_Pump_Sleep/blob/master/schemes/scheme1.jpg)
 ![SCHEME](https://github.com/AlexGyver/Auto_Pump_Sleep/blob/master/schemes/scheme2.jpg)
 ![SCHEME](https://github.com/AlexGyver/Auto_Pump_Sleep/blob/master/schemes/modif.jpg)
+_Для Digispark с MicroUSB (как на картинке ниже), один диод (обведен) все-таки лучше не отпаивать. Через него питается микроконтроллер при прошивке. Без него прошить все-ещё можно, но придется подавать на схему внешнее питание._
+![SCHEME](https://github.com/ppalex7/auto-pump-gyver/blob/master/schemes/digispark-microusb.jpg)
 
 <a id="chapter-3"></a>
 ## Материалы и компоненты
