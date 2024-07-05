@@ -8,7 +8,16 @@
 
 #define PERIOD 259200   // период работы в секундах (пример: 60*60*24*3 = 259200 - три дня!)
 #define WORK 30         // время работы в секундах
-#define MOS 1           // пин мосфета
+#if _AVR_IOTNX5_H_
+  #define MOS 1         // пин мосфета
+  #define BIT_WDTIE WDIE
+#elif _AVR_ATTINY13A_H_
+  // на ATtiny watchdog срабатывает медленнее в ~1.25 раза
+  #define MOS PINB4
+  #define BIT_WDTIE WDTIE
+#else
+  #error "Unsupported platform"
+#endif
 
 uint32_t mainTimer, myTimer;
 boolean state = false;
@@ -31,7 +40,7 @@ void setup() {
   wdt_enable(WDTO_1S);    // разрешаем ватчдог
   // 15MS, 30MS, 60MS, 120MS, 250MS, 500MS, 1S, 2S, 4S, 8S
 
-  WDTCR |= _BV(WDIE);     // разрешаем прерывания по ватчдогу. Иначе будет резет.
+  WDTCR |= _BV(BIT_WDTIE);// разрешаем прерывания по ватчдогу. Иначе будет резет.
   sei();                  // разрешаем прерывания
   set_sleep_mode(SLEEP_MODE_PWR_DOWN); // максимальный сон
 }
@@ -60,5 +69,5 @@ void loop() {
 }
 
 ISR (WDT_vect) {
-  WDTCR |= _BV(WDIE); // разрешаем прерывания по ватчдогу. Иначе будет реcет.
+  WDTCR |= _BV(BIT_WDTIE);  // разрешаем прерывания по ватчдогу. Иначе будет реcет.
 }
